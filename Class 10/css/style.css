@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    border: 0;
+}
+
+.wrapper{
+    width: 1000px;
+    height: 800px;
+    margin: 40px auto;
+}
+.wrapper h1{
+    font-size: 50px;
+    color: gray;
+    border-bottom: 5px solid green;
+    text-align: center;
+    font-family: 'Tahoma';
+}
+.float{
+    float: left;
+    margin: 40px;
+}
+
+.animation_one{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    transition: all linear 0.5s;
+}
+
+.animation_one img{
+    width: 200px;
+    height: 200px;
+    transition: all linear 0.5s;
+}
+
+.animation_one img:hover{
+    border-radius: 50%;
+}
+
+
+
+/* Animation_two Part Code Start */
+.animation_two{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.animation_two img{
+    width: 200px;
+    height: 200px;
+    transition: all linear 0.5s;
+}
+.animation_two img:hover{
+    transform: scale(1.5);
+    transition: all linear 0.5s;
+}
+/* Animation_two Part Code END */
+
+
+
+
+/* Animation_Three Part Code Start */
+.animation_three{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.animation_three:hover{
+    border-radius: 50%;
+}
+.animation_three img{
+    width: 200px;
+    height: 200px;
+    transition: all linear 0.5s;
+}
+.animation_three img:hover{
+    transform: scale(1.5);
+}
+
+/* Animation_Three Part Code END */
+
+
+
+.animation_four{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.animation_four img{
+    width: 200px;
+    height: 200px;
+    transition: all linear 0.5s;
+}
+.animation_four img:hover{
+    transform: rotate(90deg);
+    border-radius: 50%;
+}
+.animation_five{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.animation_five img{
+    width: 200px;
+    height: 200px;
+}
+.title{
+    width: 200px;
+    height: 30px;
+    background-color: black;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    font-family: 'Tahoma';
+    position: absolute;
+    bottom: -30px;
+    transition: all linear 0.5s;
+}
+
+.animation_five:hover  .title{
+    bottom: 0px;
+}
+
+.title:hover{
+    bottom: 0px;
+}
+
+.animation_six{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+.animation_six img{
+    width: 200px;
+    height: 200px;
+    
+}
+
+
+.title_six{
+    width: 200px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    line-height: 30px;
+    font-weight: bold;
+    position: absolute;
+    left: -30px;
+    text-align: center;
+    font-family: 'Tahoma';
+    overflow: hidden;
+    transition: all linear 0.5s;
+}
+.animation_six:hover .title_six{
+    left: 0;
+    bottom: 0;
+    transition: all linear 0.5s;
+}
