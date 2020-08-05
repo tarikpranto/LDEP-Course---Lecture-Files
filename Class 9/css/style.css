@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;;
+}
+/* Wrapper Part */
+
+.wrapper{
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+    background: url('../img/108.jpg') right  bottom no-repeat;
+    background-size: cover;
+    margin: auto;
+
+}
+
+
+/*  center center, background size: cover */
