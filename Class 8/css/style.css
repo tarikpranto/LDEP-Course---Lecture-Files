@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper_full{
+    width: 100%;
+}
+.wrapper{
+    width: 1200px;
+}
+
+.wrapper1{
+    width: 100px;
+    background-color: green;
+}
+.wrapper2{
+    width: 500px;
+    background-color: blue;
+}
+.wrapper3{
+    width: 500px;
+    background-color: green;
+}
+
+.header_full{
+    background-color: gray;
+    height: 150px;
+}
+.header{
+    background-color: dodgerblue;
+    height: 150px;
+    margin: auto;
+}
+.logo_part{
+    background-color: deeppink;
+    width: 200px;
+    height: 150px;
+    float: left;
+}
+.logo_part a img{
+    padding-top: 43px;
+}
+.add_part{
+    background-color: forestgreen;
+    height: 150px;
+    width: 600px;
+    float: left;
+}
+
+.social_part{
+    width: 400px;
+    height: 150px;
+    background-color: gold;
+    float: left;
+    color: black;
+}
+.social_part a img{
+    padding-top: 20px;
+    margin-left: 20px;
+}
+.menu_full{
+    height: 50px;
+    background-color: black;
+}
+.menu{
+    background-color: red;
+    height: 50px;
+    margin: auto;
+}
+.banner{
+    height: 500px;
+    background-color: cyan;
+}
+.content_full{
+    background-color: forestgreen;
+    
+}
+.content{
+    height: 500px;
+    background-color: orangered;
+    margin: auto;
+    
+}
+.content h1{
+    padding-top: 20px;
+    padding-left: 10px;
+    font-family: Tahoma;
+    color: white;
+    font-weight: bold;
+}
+.image{
+    height: 500px;
+    background-color: gray;
+    width: 600px;
+    float: left;
+}
+.paragraph{
+    height: 500px;
+    background-color: gray;
+    width: 600px;
+    float: left;
+}
+.paragraph p{
+    padding-top: 60px;
+}
+
+.map{
+    margin: auto;
+    background-color: blueviolet;
+}
+
+.nav{
+    width: 200px;
+    float: left;
+    color: white;
+    padding-top: 5px;
+}
+.form_full{
+    background-color: aqua;
+    height: 500px;
+}
+.form{
+    height: 500px;
+    background-color: brown;
+    margin: auto;
+}
+#contact-h1{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-family: Helvetica;
+}
+
+.footer_full{
+    background-color: rgb(72, 73, 78);
+}
+.footer{
+    height: 200px;
+    color: white;
+}
+.footer h4{
+    padding-left: 100px;
+    padding-top: 50px;
+    text-align: center;
+}
+#name{
+    color: gold;
+}
+.f1{
+    margin-left: 400px;
+}
+.f2{
+    width: 300px;
+    height: 40px;
+}
+#submit{
+    width: 100px;
+    height: 30px;
+    background-color: gold;
+}
