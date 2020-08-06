@@ -19,7 +19,7 @@ a{
 .wrapper{
     width: 1200px;
     height: 200px;
-    background-color: dodgerblue;
+    background: url('../img/banner.jpg');
     margin: auto;
 }
 .menu_full{
@@ -93,4 +93,5 @@ a{
 }
 .menu > ul > li > ul > li > a:hover{
     background-color: black;
+    padding-left: 20px;
 }
