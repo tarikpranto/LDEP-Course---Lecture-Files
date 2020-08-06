@@ -32,23 +32,65 @@ a{
     height: 50px;
     margin: auto;
 }
-.menu ul li{
+.menu > ul > li{
     float: left;
 }
-.menu ul li a{
+.menu > ul > li > a{
     color: white;
-    padding: 0px 15px;
+    padding: 0px 25px;
     line-height: 50px;
     font-family: 'Tahoma';
     font-size: 18px;
     border-right: 1px solid white;
     display: block;
     transition: all linear 0.5s;
+    width: 80px;
 }
-.menu ul li:last-child a{
+.menu > ul > li:last-child a{
     border: 0;
 }
-.menu ul li a:hover{
+.menu > ul > li  > a:hover{
     background-color: black;
     
+}
+
+.menu > ul > li > ul{
+    display: none;
+    background-color: red;
+    padding-top: 15px;
+    position: absolute;
+}
+.menu > ul > li > ul:before{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: red;
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    transform: rotate(45deg);
+    
+}
+
+.menu > ul > li:hover >ul{
+    display: block;
+}
+
+.menu > ul > li > ul > li > a{
+    color: white;
+    padding: 0px 25px;
+    line-height: 50px;
+    font-family: 'Tahoma';
+    font-size: 18px;
+    border-bottom: 1px solid black;
+    display: block;
+    width: 80px;
+    transition: all linear 0.5s;
+    
+}
+.menu > ul > li > ul > li:last-child > a{
+    border: 0;
+}
+.menu > ul > li > ul > li > a:hover{
+    background-color: black;
 }
