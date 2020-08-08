@@ -4,33 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JOG</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 <body>
-    <script>
-        var m = 40;
-        function jog(){
-            var a = 5;
-            var b = 6;
-            var c = (a+b);
-            document.write('Result is:', c)
-        }
+    <h1 class="display-1 bg-danger text-center text-white pb-2">Functions in Javascript</h1>
+    <div class="container">
+        <script>
+            var m = 40;              //Global Variable
+            function jog(){          // Function Declaration
+                var a = 5;
+                var b = 6;
+                var c = (a+b);
+                document.write('Addition Result is: ', c)
+            }
+                            
+            function biyog(){
+                var x = 50;
+                var y = 30;
+                var z = (x-y);
+                document.write('Subtraction Result is: ', z)
+            }
+    
+            function calc(one, two){
+                document.write('Function Result: ', one + two);
+            }
+    
+        </script>
+        <h1><script>jog();</script></h1>
+        <h1><script>biyog();</script></h1>
+        <h1><script>calc(300, 300);</script></h1>
+    </div>
 
-        function biyog(){
-            var x = 50;
-            var y = 30;
-            var z = (x-y);
-            document.write('Biyog: ', z)
-        }
-
-        function calc(one, two){
-            document.write(one + two);
-        }
-
-    </script>
-    <h1><script>jog();</script></h1>
-    <h1><script>biyog();</script></h1>
-    <h1><script>calc(300, 300);</script></h1>
-
-
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 </html>
