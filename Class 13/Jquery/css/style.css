@@ -1,0 +1,12 @@
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: gold;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+}
+button{
+    margin: 10px 5px;
+    background-color: cyan;
+}
